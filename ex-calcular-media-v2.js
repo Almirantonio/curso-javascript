@@ -9,7 +9,7 @@
             total  += arguments[i];
         }
 
-        return total / qtd || 0
+        return (total / qtd)  || 0  // curto circuito
     }
     let media = calcularMedia(10,10,10,10);
     console.log(media);
